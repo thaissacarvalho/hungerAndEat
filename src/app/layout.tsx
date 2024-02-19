@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Hunger and Eat",
-  description: "Esse é o seu app para procurar receitas de diferentes lugares do mundo.",
+  description: "Esse é o seu website para procurar receitas de diferentes lugares do mundo.",
 };
 
 export default function RootLayout({
@@ -18,10 +18,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <body className={inter.className}>
+      <body className={`${inter.className} w-screen`}>
         <Header />
         {children}
         <Footer />
+        <div className="w-full h-8 bg-brightOrange text-ghostWhite font-medium flex justify-center items-center">Desenvolvido por Thaissa Carvalho</div>
       </body>
     </html>
   );
