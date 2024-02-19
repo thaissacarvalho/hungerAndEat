@@ -8,7 +8,7 @@ export default function Header() {
   const buttonSearch = "bg-brightOrange rounded-r-lg flex justify-center items-center w-10 hover:bg-burntSienna"
 
   return (
-    <header className="bg-ghostWhite flex p-2 justify-around items-center lg:p-4 lg:gap-24 ">
+    <header className="w-full h-auto bg-ghostWhite flex p-2 justify-around items-center lg:p-4 lg:gap-24">
       <Logo />
 
       <nav className="hidden md:flex gap-6">
