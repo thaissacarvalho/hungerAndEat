@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+
+    header,
+    section {
+        @apply border-solid border-b-white border-b-2;
+    }
+
+    section {
+        background-image: url("./img/tofu-bg.jpeg");
+        height: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+}
