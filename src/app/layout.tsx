@@ -22,7 +22,6 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
-        <div className="w-full h-8 bg-brightOrange text-ghostWhite font-medium flex justify-center items-center">Desenvolvido por Thaissa Carvalho</div>
       </body>
     </html>
   );
