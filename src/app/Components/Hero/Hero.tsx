@@ -8,14 +8,14 @@ export default function Start() {
     const subtitleStart = "font-bold text-xs"
 
     return (
-        <section className="w-full bg-cover bg-center h-full p-2 flex flex-col gap-8 lg:p-4">
+        <section className="w-full bg-cover bg-center h-full p-2 flex flex-col justify-center gap-8 lg:p-4">
             <h1 className="text-2xl lg:text-4xl font-bold w-64 lg:w-80">ENCONTRE A <span className="text-brightOrange">MELHOR RECEITA</span> PARA A SUA FOME!</h1>
 
             <button className="w-36 h-10 rounded-full text-white text-sm bg-lightOrange hover:bg-brightOrange hover:font-bold">
                 <a href="">Receitas</a>
             </button>
 
-            <div className="flex gap-16">
+            <div className="flex gap-16 flex-col md:flex-row">
                 <div>
                     <div className={divIconStart}>
                         <FaBookOpen className={iconStart}/>
