@@ -9,7 +9,7 @@
         @apply border-solid border-b-white border-b-2;
     }
 
-    section {
+    section:nth-child(1) {
         background-image: url("./img/tofu-bg.jpeg");
         height: 500px;
         background-position: center;
