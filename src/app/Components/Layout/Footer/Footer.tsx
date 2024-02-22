@@ -10,7 +10,7 @@ export default function Footer() {
     const socialMediaIcons = "hover:text-brightOrange text-2xl"
 
     return (
-        <footer className="w-full bg-ghostWhite p-2 lg:p-4">
+        <footer className="w-full p-2 lg:p-4">
             <div className="grid md:grid-cols-2 gap-8 lg:grid-cols-5 md:gap-14 lg:gap-8">
                 <div className="flex flex-col gap-4 lg:gap-6">
                     <a href="#inicio">
