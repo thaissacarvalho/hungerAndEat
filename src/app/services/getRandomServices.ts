@@ -1,4 +1,3 @@
-import axios from 'axios';
 import API from "../../utils/API";
 
 interface Recipe {
