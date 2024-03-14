@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Contact() {
   return (
-    <section className='p-8 flex flex-col gap-8 md:p-16 md:flex-row md:flex-wrap'>
+    <section className='p-8 flex flex-col gap-8 md:p-16 md:flex-row md:flex-wrap' id='contato'>
         <h1 className='text-2xl font-bold text-brightOrange md:gap-6'>Talvez você tenha alguma sugestão que possa me encaminhar...</h1>
         <h5 className='text-sm text-oliveBrown font-medium'>Não seja timido, pode me mandar mensagem que o responderei o mais rápido possivel.</h5>
 

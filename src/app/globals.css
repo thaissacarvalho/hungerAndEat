@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+::-webkit-scrollbar-track {
+    @apply bg-white;
+}
+::-webkit-scrollbar {
+    @apply w-1.5;
+}
+::-webkit-scrollbar-thumb {
+    @apply bg-lightOrange;
+}
+
 @layer base {
 
     header,

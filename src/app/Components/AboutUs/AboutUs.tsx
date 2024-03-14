@@ -1,9 +1,8 @@
 import Image from 'next/image';
-import WomanCooking from '../../img/woman-cooking.jpeg';
 
 export default function AboutUs() {
     return (
-        <section className="w-full p-6 flex flex-col gap-3 md:flex-row md:items-center md:p-16 md:gap-8">
+        <section className="w-full p-6 flex flex-col gap-3 md:flex-row md:items-center md:p-16 md:gap-8" id='sobrenos'>
             <div className='flex gap-20 flex-col'>
                 <div className="flex flex-col">
                     <h1 className="font-bold text-xl md:w-1/2">VOCÊ ESTÁ PROCURANDO UMA <span className="text-brightOrange text-3xl md:text-4xl">RECEITA NOVA?</span></h1>

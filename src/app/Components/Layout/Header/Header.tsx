@@ -10,10 +10,10 @@ export default function Header() {
       <Logo />
 
       <nav className="hidden md:flex gap-6">
-        <a href="inicio" className={navLink}>Inicio</a>
-        <a href="receitas" className={navLink}>Receitas</a>
-        <a href="receitas" className={navLink}>Sobre nós</a>
-        <a href="receitas" className={navLink}>Contato</a>
+        <a href="#" className={navLink}>Inicio</a>
+        <a href="#receitas" className={navLink}>Receitas</a>
+        <a href="#sobrenos" className={navLink}>Sobre nós</a>
+        <a href="#contato" className={navLink}>Contato</a>
       </nav>
       
       <SearchBar/>
