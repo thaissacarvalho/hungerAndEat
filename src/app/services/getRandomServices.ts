@@ -1,11 +1,5 @@
 import API from "../../utils/API";
-
-export interface Recipe {
-  id: number,
-  title: string,
-  image: string,
-  spoonacularSourceUrl: string,
-}
+import { Recipe } from '@/app/types/Recipe'
 
 export async function getRandomRecipes(): Promise<Recipe[]> {
   try {
