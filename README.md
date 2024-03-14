@@ -1,6 +1,6 @@
 # Hunger and Eat
 
-![Projeto Spoonacular]("/public/hungerandeat.png")
+![Projeto Spoonacular]("./src/app/img/hungerandeat.png")
 
 Este projeto consiste em um front end que utiliza a API Restful da Spoonacular para fornecer informações sobre receitas, ingredientes, nutrição e muito mais. A Spoonacular é uma plataforma popular para receitas e informações sobre alimentos, fornecendo uma API robusta para desenvolvedores.
 
@@ -32,5 +32,4 @@ Contribuições são bem-vindas! Se você deseja melhorar este projeto, sinta-se
 
 ## Link para o Projeto
 
-[Link para o projeto no GitHub](https://github.com/thaissacarvalho/hungerAndEat)
 [Link para o projeto no ar](https://hungerandeat-thaissacarvalho.vercel.app/)
