@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { getRandomRecipes, Recipe } from '../../../services/getRandomServices';
+import { getRandomRecipes } from '../../../services/getRandomServices';
+import { Recipe } from '@/app/types/Recipe';
 import Image from 'next/image';
 
 const RecipeList: React.FC = () => {
