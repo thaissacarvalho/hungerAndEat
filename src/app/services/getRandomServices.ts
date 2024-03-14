@@ -1,8 +1,8 @@
 import API from "../../utils/API";
 
 interface Recipe {
-  id: number;
-  title: string;
+  id: number,
+  title: string,
   image: string,
   spoonacularSourceUrl: string,
 }
